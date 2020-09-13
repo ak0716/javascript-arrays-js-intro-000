@@ -42,14 +42,4 @@ removeElementFromBeginningOfArray = () => {
   return myArray;
 }
 
-var myArray3 = [1, 2, 3]
-destructivelyRemoveElementFromBeginningOfArray = (myArray3) => {
-  myArray3.slice();
-  return myArray3;
-}
 
-removeElementFromBeginningOfArray = () => {
-  var myArray = [1, 2, 3]
-  myArray.slice();
-  return myArray;
-}
