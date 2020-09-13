@@ -29,3 +29,9 @@ accessElementInArray = () => {
   var myArray = [1, 2, 3];
   return myArray[2];
 }
+
+var myArray2 = [1, 2, 3]
+destructivelyRemoveElementFromBeginningOfArray = (myArray2) => {
+  myArray2.shift();
+  return myArray2;
+}
