@@ -5,6 +5,4 @@ addElementToBeginningOfArray = ([], a) => {
   myArray.unshift("foo")
 }
 
-destructivelyAddElementToBeginningOfArray = ([], a) => {
 
-}
