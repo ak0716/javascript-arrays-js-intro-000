@@ -35,3 +35,9 @@ destructivelyRemoveElementFromBeginningOfArray = (myArray2) => {
   myArray2.shift();
   return myArray2;
 }
+
+removeElementFromBeginningOfArray = (myArray2) => {
+  var myArray = [1, 2, 3]
+  myArray.shift();
+  return myArray;
+}
