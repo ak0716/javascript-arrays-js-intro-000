@@ -4,3 +4,5 @@ addElementToBeginningOfArray = ([], a) => {
   let myArray = [1];
   myArray.push('foo');
 }
+
+addElementToBeginningOfArray()
