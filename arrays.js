@@ -41,5 +41,3 @@ removeElementFromBeginningOfArray = () => {
   myArray.shift();
   return myArray;
 }
-
-
