@@ -4,5 +4,3 @@ addElementToBeginningOfArray = ([], a) => {
   var myArray = [1];
   myArray.unshift("foo")
 }
-
-
