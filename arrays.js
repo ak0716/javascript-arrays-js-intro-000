@@ -11,5 +11,3 @@ destructivelyAddElementToBeginningOfArray = (myArray) => {
   myArray.unshift('foo');
   return myArray;
 }
-
-destructivelyAddElementToBeginningOfArray()
