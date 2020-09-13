@@ -41,3 +41,15 @@ removeElementFromBeginningOfArray = (myArray2) => {
   myArray.shift();
   return myArray;
 }
+
+var myArray3 = [1, 2, 3]
+destructivelyRemoveElementFromBeginningOfArray = (myArray2) => {
+  myArray3.slice();
+  return myArray2;
+}
+
+removeElementFromBeginningOfArray = (myArray2) => {
+  var myArray = [1, 2, 3]
+  myArray.slice();
+  return myArray;
+}
