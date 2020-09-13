@@ -24,3 +24,8 @@ destructivelyAddElementToEndOfArray = (myArray) => {
   myArray.push('foo');
   return myArray;
 }
+
+accessElementInArray = () => {
+  var myArray = [1, 2, 3];
+  return myArray[2];
+}
