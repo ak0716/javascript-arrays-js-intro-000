@@ -11,3 +11,16 @@ destructivelyAddElementToBeginningOfArray = (myArray) => {
   myArray.unshift('foo');
   return myArray;
 }
+
+
+addElementToEndOfArray = () => {
+  var myArray = [1];
+  myArray.push('foo');
+  return myArray;
+}
+
+var myArray = [1];
+destructivelyAddElementToEndOfArray = (myArray) => {
+  myArray.push('foo');
+  return myArray;
+}
