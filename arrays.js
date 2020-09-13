@@ -41,3 +41,15 @@ removeElementFromBeginningOfArray = () => {
   myArray.shift();
   return myArray;
 }
+
+var myArray3 = [1, 2, 3]
+destructivelyRemoveElementFromEndOfArray = (myArray3) => {
+  myArray3.pop();
+  return myArray3;
+}
+
+removeElementFromEndOfArray = () => {
+  var myArray = [1, 2, 3]
+  myArray.pop();
+  return myArray;
+}
