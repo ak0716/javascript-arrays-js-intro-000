@@ -5,3 +5,9 @@ addElementToBeginningOfArray = () => {
   myArray.unshift('foo');
   return myArray;
 }
+
+destructivelyAddElementToBeginningOfArray = () => {
+  var myArray = [1];
+  myArray.unshift('foo');
+}
+return myArray;
